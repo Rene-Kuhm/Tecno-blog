@@ -2,7 +2,7 @@
 title: "Astro Evoluciona: Explorando las Últimas Innovaciones en Astro 3.0, 4.0 y 4.2"
 excerpt: "Descubre las últimas actualizaciones de Astro, desde transiciones de vista suaves y optimización de imágenes hasta avanzadas mejoras en SSR y una innovadora barra de herramientas de desarrollo. Astro 3.0, 4.0 y 4.2 traen mejoras significativas que prometen revolucionar el desarrollo web moderno, mejorando tanto el rendimiento como la experiencia del usuario."
 publishDate: "2023-03-22T20:35:36.050Z"
-image: "https://i.postimg.cc/0QhYD1Xq/astro.jpg"
+image: "https://i.postimg.cc/vB5B2RHy/astro-cool-parts.avif"
 category: "Desarrollo"
 author: "Rene Kuhm"
 tags: [Desarrollo web, Programacion,astro,tailwind]
