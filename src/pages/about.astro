@@ -1,0 +1,52 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import { Image } from "@astrojs/image/components";
+import { authors } from "@data/authors";
+import Pagetitle from "@components/pagetitle.astro";
+import Link from "@components/ui/link.astro";
+---
+
+<Layout title="About">
+  <Container>
+    <Pagetitle>
+      <Fragment slot="title">About</Fragment>
+      <Fragment slot="desc">En TecnoBlog tenes pasion por la tecnologia.</Fragment>
+    </Pagetitle>
+
+    <div class="grid md:grid-cols-1 gap-10 mx-auto  max-w-2xl mt-12 border-2 border-emerald-300">
+      {
+        authors.slice(0, 3).map((item) => (
+          <div class="group">
+            <div class="w-full aspect-square">
+              <Image
+                src='/src/assets/authors/rene.jpg'
+                format="avif"
+                width={500}
+                height={580}
+                alt="Team"
+                class="w-full h-full object-cover rounded transition  group-hover:-translate-y-1 group-hover:shadow-xl"
+              />
+            </div>
+
+            <div class="mt-4 text-center">
+              <h3 class="text-sm text-gray-500 dark:text-gray-300">
+                {" "}
+                René Kuhm
+              </h3>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="mx-auto max-w-xl text-center mt-14">
+      <p class="text-lg leading-relaxed text-gray-600 dark:text-gray-400">
+        "Soy un desarrollador Full Stack apasionado por la creación y optimización de aplicaciones web y móviles. Con habilidades en front-end y back-end, me especializo en convertir ideas complejas en soluciones digitales elegantes y eficientes. Mi experiencia abarca desde el diseño de interfaces de usuario hasta el desarrollo de servidores, bases de datos y la integración de API, utilizando tecnologías de vanguardia para construir software que no solo cumpla con los requisitos funcionales, sino que también ofrezca una experiencia de usuario excepcional."
+      </p>
+      <div class="mt-8">
+        <Link href="/contact" style="primary">Contactame</Link>
+      </div>
+    </div>
+  </Container>
+</Layout>
