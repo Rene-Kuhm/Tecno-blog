@@ -2,7 +2,7 @@
 title: "Descubriendo lo Último en Visual Studio Code: Innovaciones y Mejoras en 2024"
 excerpt: "Visual Studio Code se renueva una vez más, presentando características que prometen mejorar significativamente la experiencia de desarrollo. Desde mejoras en el scroll pegajoso y opciones de guardado automático más flexibles, hasta un control más detallado sobre las notificaciones por extensión y refinamientos en el trabajo con diffs. Estas actualizaciones reflejan el compromiso continuo de VS Code con la eficiencia y la personalización, manteniendo su lugar como una herramienta esencial para desarrolladores modernos. "
 publishDate: "2023-03-22T20:55:36.050Z"
-image: "https://i.postimg.cc/3J56Qs86/descarga.png"
+image: "https://i.postimg.cc/85w5gRWX/descarga.jpg"
 category: "Desarrollo"
 author: "Rene Kuhm"
 tags: [Desarrollo web, Programacion,astro,VisualStudioCode]
